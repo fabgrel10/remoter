@@ -1,14 +1,20 @@
 import React from 'react';
-import MainRoutes from './routes/MainRoutes';
-import './style/main.scss';
+import PublicRoutes from './routes/PublicRoutes';
+import './style/main.css';
 
 function App() {
   return (
-    <div className="app">
-      <h1>React Capstone Project</h1>
-      <MainRoutes />
+    <div className="container">
+      <header className="header">
+       <h1>Remoter</h1>
+      </header>
+      <section className="search">
+        <h2>Search</h2>
+      </section>
+      <section className="jobs-list">
+        <PublicRoutes />
+      </section>
     </div>
-
   );
 }
 

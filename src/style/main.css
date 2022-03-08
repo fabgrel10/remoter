@@ -1,0 +1,21 @@
+/* App.js */
+.container {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: #4369b2;
+  color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+
+.header,
+.search,
+.jobs-list {
+  display: grid;
+  justify-items: center;
+  border: 1px solid red;
+  grid-auto-flow: dense;
+  margin-top: 10px;
+  background-size: cover;
+}
