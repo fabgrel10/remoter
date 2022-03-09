@@ -1,5 +1,5 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
-import JobList from '../features/JobList';
+import JobList from '../features/JobList/JobList';
 
 const PublicRoutes = () => (
   <Routes>

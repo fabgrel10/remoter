@@ -1,21 +1,53 @@
 /* App.js */
 .container {
+  display: table;
+  width: calc(100vw - 100px);
   height: 100%;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  background: #4369b2;
+  margin: 0 auto;
   color: #fff;
+  background: #4369b2;
   box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
 }
 
-.header,
-.search,
+.header__section,
+.search__section,
 .jobs-list {
   display: grid;
-  justify-items: center;
-  border: 1px solid red;
   grid-auto-flow: dense;
-  margin-top: 10px;
+  justify-items: center;
+  align-items: center;
   background-size: cover;
+  border: 1px solid red;
+}
+
+.header__section {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  align-items: center;
+}
+
+.header__content,
+.search-jobs__content {
+  display: flex;
+}
+
+.header__text {
+  margin-left: 30px;
+  font-size: 45px;
+}
+
+.search,
+.jobs-list {
+  grid-template-columns: minmax(15rem, 1fr);
+}
+
+.header__logo {
+  width: 100px;
+}
+
+.search-jobs__content {
+  padding: 10px;
+}
+
+.search-jobs__input {
+  width: calc(100% - 30px);
 }
