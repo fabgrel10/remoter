@@ -3,6 +3,7 @@ import PublicRoutes from './routes/PublicRoutes';
 import logo from './assets/images/job-offers-bro.png';
 import './style/main.css';
 import SearchJobs from './features/SearchJobs/SearchJobs';
+import JobBoard from './features/JobBoard/JobBoard';
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
       <section className="search-jobs__section">
         <SearchJobs />
       </section>
-      <section className="jobs-list">
+      <section className="jobs-board">
         <PublicRoutes />
+        <JobBoard />
       </section>
     </div>
   );

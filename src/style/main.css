@@ -11,7 +11,7 @@
 
 .header__section,
 .search__section,
-.jobs-list {
+.jobs-board {
   display: grid;
   grid-auto-flow: dense;
   justify-items: center;
@@ -36,7 +36,7 @@
 }
 
 .search,
-.jobs-list {
+.jobs-board {
   grid-template-columns: minmax(15rem, 1fr);
 }
 
