@@ -14,10 +14,10 @@ function App() {
           <h2 className="header__text">Remoter</h2>
         </div>
       </header>
-      <section className="search-jobs__section">
+      <section className="search__section">
         <SearchJobs />
       </section>
-      <section className="jobs-board">
+      <section className="job-board__section">
         <PublicRoutes />
         <JobBoard />
       </section>

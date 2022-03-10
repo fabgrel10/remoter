@@ -1,0 +1,26 @@
+.job-item {
+  display: flex;
+  box-sizing: border-box;
+  margin: 10px auto;
+  width: 95%;
+  background-size: cover;
+  background-clip: content-box, border-box;
+  background-origin: border-box;
+  border: calc(8px + 0.2vw) solid transparent;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.job-item__title {
+  flex: 1;
+  flex-basis: 60%;
+}
+
+.job-item__company {
+  flex: 1;
+  flex-basis: 25%;
+}
+
+.job-item__publication-date {
+  flex: 1;
+  flex-basis: 15%;
+}

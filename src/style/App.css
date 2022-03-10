@@ -1,0 +1,48 @@
+.container {
+  display: table;
+  width: calc(100vw - 10px);
+  max-width: 810px;
+  height: 100%;
+  margin: 0 auto;
+  color: #fff;
+  background: #4369b2;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+
+.header__section,
+.search__section,
+.job-board__section {
+  display: grid;
+  grid-auto-flow: dense;
+  grid-template-columns: repeat(auto-fit, minmax(390px, 810px));
+  align-items: center;
+  justify-items: center;
+  background-size: cover;
+  border: 1px solid red;
+}
+
+.header__section {
+  align-items: center;
+}
+
+.header__content,
+.search-jobs__content {
+  display: flex;
+}
+
+.header__text {
+  margin-left: 30px;
+  font-size: 45px;
+}
+
+.header__logo {
+  width: 100px;
+}
+
+.search-jobs__content {
+  padding: 10px;
+}
+
+.search-jobs__input {
+  width: calc(100% - 30px);
+}

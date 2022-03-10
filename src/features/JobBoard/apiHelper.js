@@ -1,4 +1,4 @@
-const remotiveApi = 'https://remotive.io/api/remote-jobs?limit=100';
+const remotiveApi = 'https://remotive.io/api/remote-jobs?limit=100&category=software-dev&category=design&category=product&category=devops&category=qa';
 
 const fetchJobs = async() => {
   const response = await fetch(remotiveApi);
