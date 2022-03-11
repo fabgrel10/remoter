@@ -33,6 +33,11 @@
   width: 100px;
 }
 
+.header__jobs-total {
+  font-size: 18px;
+  margin-left: 65px;
+}
+
 .search-jobs__content {
   padding: 10px;
 }
