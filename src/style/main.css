@@ -2,3 +2,4 @@
 @import "./base/normalize.css";
 @import "./App.css";
 @import "../features/JobBoard/JobItem.css";
+@import "../features/SearchJobs/SearchJobs.css";

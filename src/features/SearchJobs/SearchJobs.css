@@ -1,0 +1,29 @@
+.search-jobs__form {
+  display: flex;
+  width: 95%;
+  margin: 10px auto;
+}
+
+.search-jobs__input {
+  flex: 1;
+  flex-basis: 40%;
+}
+
+input {
+  max-width: 250px;
+  color: #fff;
+  font-size: 1.5em;
+  background: 0;
+  border: 0;
+  outline: none;
+  transition: padding 0.3s 0.2s ease;
+}
+
+.search-jobs__select {
+  color: #fff;
+  font-size: 1rem;
+  background: 0;
+  border: 0;
+  outline: none;
+  transition: padding 0.3s 0.2s ease;
+}

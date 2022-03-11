@@ -1,6 +1,5 @@
 .job-item {
   display: flex;
-  box-sizing: border-box;
   margin: 10px auto;
   width: 95%;
   background-size: cover;

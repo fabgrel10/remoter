@@ -2,7 +2,6 @@
   display: table;
   width: calc(100vw - 10px);
   max-width: 810px;
-  height: 100%;
   margin: 0 auto;
   color: #fff;
   background: #4369b2;
@@ -13,20 +12,15 @@
 .search__section,
 .job-board__section {
   display: grid;
-  grid-auto-flow: dense;
   grid-template-columns: repeat(auto-fit, minmax(390px, 810px));
-  align-items: center;
-  justify-items: center;
-  background-size: cover;
-  border: 1px solid red;
+  margin-bottom: 40px;
 }
 
 .header__section {
-  align-items: center;
+  justify-items: center;
 }
 
-.header__content,
-.search-jobs__content {
+.header__content {
   display: flex;
 }
 

@@ -16,12 +16,10 @@ const fetchJobs = async() => {
     dataObj.publicationDate = obj.publication_date;
     dataObj.salary = obj.salary;
     dataObj.description = obj.description;
+    dataObj.category = obj.category;
 
     return data.push(dataObj);
   });
-
-  console.log("DATA FROM API:")
-  console.log(data);
 
   return data;
 }
