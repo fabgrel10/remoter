@@ -6,11 +6,9 @@ const Job = () => {
   const jobs = useSelector(state => state.jobBoard.jobs);
   const job = jobs.filter(job => job.id.toString() === selectedJobId);
 
-  console.log(job);
-
   return (
     <div>
-      <Link to="/">Home</Link>
+      <Link to="/">Back to All Jobs</Link>
       <h2>{job[0].title}</h2>
       <h3>{job[0].companyName}</h3>
       <h3>{job[0].salary}</h3>

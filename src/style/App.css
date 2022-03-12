@@ -32,3 +32,24 @@
 .header__logo {
   width: 100px;
 }
+
+a {
+  position: relative;
+  font-size: 14px;
+  padding: 5px 10px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #ec4c8a;
+  box-shadow: 0 5px 0 0 #8a3153;
+}
+
+a:hover {
+  background-color: #80324f;
+  cursor: pointer;
+}
+
+a:active {
+  top: 5px;
+  box-shadow: none;
+}
