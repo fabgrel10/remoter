@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-Coming soon
+[Surge](fabgrel10.reactcapstone.surge.sh)
 
 ## Table of Contents
 
@@ -89,7 +89,8 @@ Give a ⭐️ if you like this project!
 
 The ideas and inspiration from this project are coming from the following articles:
 
-- Microverse
+- [Remotive API](https://remotive.io/)
+- [Storyset.com](https://storyset.com/)
 
 ## License
 
