@@ -3,9 +3,9 @@
 ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=for-the-badge)
 ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
-![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-> Webapp that get of all active remote job listings for developers and others using the Remotive job board API.
+> Webapp that get of all active remote job listings for developers and others using the Remotive job board API
 
 ![screenshot](./src/assets/images/app_screenshot.gif)
 
@@ -36,7 +36,6 @@ Remoter is the React Capstone Project from the Microverse Curriculum.
 - [Create React App](https://create-react-app.dev/) Set up a modern web app by running one command.
 - [React Router](https://reactrouter.com/) A declarative library for building single page applications.
 - [Redux](https://redux-toolkit.js.org/) The official, opinionated, batteries-included toolset for efficient Redux development.
-- [Bootstrap](https://getbootstrap.com/) Build fast, responsive sites with Bootstrap.
 
 ## Getting Started
 
