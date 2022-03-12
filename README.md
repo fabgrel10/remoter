@@ -31,8 +31,9 @@
 
 Remoter is the React Capstone Project from the Microverse Curriculum.
 
-
 ## Live Demo
+
+[GitHub Pages](https://fabgrel10.github.io/remoter)
 
 [Surge](http://fabgrel10.reactcapstone.surge.sh/)
 
