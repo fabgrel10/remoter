@@ -32,16 +32,3 @@
 .header__logo {
   width: 100px;
 }
-
-.header__jobs-total {
-  font-size: 18px;
-  margin-left: 65px;
-}
-
-.search-jobs__content {
-  padding: 10px;
-}
-
-.search-jobs__input {
-  width: calc(100% - 30px);
-}

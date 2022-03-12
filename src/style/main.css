@@ -1,5 +1,5 @@
 @import "./base/fonts.css";
 @import "./base/normalize.css";
 @import "./App.css";
+@import "../features/JobBoard/JobBoard.css";
 @import "../features/JobBoard/JobItem.css";
-@import "../features/SearchJobs/SearchJobs.css";

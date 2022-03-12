@@ -1,13 +1,12 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import PublicRoutes from './routes/PublicRoutes';
 import logo from './assets/images/job-offers-bro.png';
-import './style/main.css';
-import SearchJobs from './features/SearchJobs/SearchJobs';
+// import SearchJobs from './features/SearchJobs/SearchJobs';
 import JobBoard from './features/JobBoard/JobBoard';
+import './style/main.css';
 
 function App() {
-  const jobs = useSelector(state => state.jobs);
+  const jobs = useSelector(state => state.jobBoard.jobs);
 
   return (
     <div className="container">
@@ -20,11 +19,10 @@ function App() {
           </div>
         </div>
       </header>
-      <section className="search__section">
+      {/* <section className="search__section">
         <SearchJobs />
-      </section>
+      </section> */}
       <section className="job-board__section">
-        <PublicRoutes />
         <JobBoard />
       </section>
     </div>

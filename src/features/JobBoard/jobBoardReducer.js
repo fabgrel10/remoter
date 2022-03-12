@@ -17,6 +17,6 @@ const jobBoardReducer = (state = initialState, action) => {
     default:
       return state;
   }
-}
+};
 
 export default jobBoardReducer;
