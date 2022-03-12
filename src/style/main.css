@@ -3,3 +3,12 @@
 @import "./App.css";
 @import "../features/JobBoard/JobBoard.css";
 @import "../features/JobBoard/JobItem.css";
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+p,
+a {
+  font-family: 'Cabin', sans-serif; /* 'Gill Sans', replacement */
+}
