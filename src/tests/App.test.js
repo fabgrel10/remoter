@@ -2,7 +2,7 @@ import renderer from 'react-test-renderer';
 import '@testing-library/jest-dom';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
-import store from '../app/store';
+import store from '../redux/store';
 import App from '../App';
 
 it('App renders correctly', () => {
