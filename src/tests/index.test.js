@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { cleanup } from '@testing-library/react';
 import { Provider } from 'react-redux';
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter } from 'react-router-dom';
 import App from '../App';
 import store from '../app/store';
 
@@ -12,7 +12,7 @@ it('index renders correctly', () => {
   const tree = renderer.create(
     <Provider store={store}>
       <BrowserRouter>
-      <App />
+        <App />
       </BrowserRouter>
     </Provider>,
   ).toJSON();

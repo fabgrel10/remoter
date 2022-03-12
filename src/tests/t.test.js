@@ -21,8 +21,8 @@ describe('jobBoar reducer tests: ', () => {
       data: {},
       isLoading: false,
       jobs: [
-        {}
-      ]
+        {},
+      ],
     });
   });
 });
