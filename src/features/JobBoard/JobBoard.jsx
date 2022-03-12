@@ -19,7 +19,7 @@ const JobBoard = () => {
   );
 
   return (
-    <>
+    <section className="job-board__section">
       <p className="jobboard__jobs-total">Total Jobs: {shownJobs.length}</p>
       <div>
         <input
@@ -34,12 +34,13 @@ const JobBoard = () => {
       {shownJobs.map(job => (
         <JobItem
           key={job.id}
+          id={job.id}
           title={job.title}
           companyName={job.companyName}
           publicationDate={job.publicationDate}
         />
       ))}
-    </>
+    </section>
   );
 };
 
