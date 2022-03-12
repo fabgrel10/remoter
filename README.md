@@ -7,11 +7,11 @@
 
 > Webapp that get of all active remote job listings for developers and others using the Remotive job board API.
 
-![screenshot](./src/assets/images/app_screenshot.png)
+![screenshot](./src/assets/images/app_screenshot.gif)
 
-## Live Demo
+## Video
 
-([Remoter](http://fabgrel10.reactcapstone.surge.sh/jobs))
+[See my presentation](https://www.loom.com/share/db92f638beb34ce6867331e91f306bce)
 
 ## Table of Contents
 
