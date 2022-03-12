@@ -2,7 +2,9 @@ import PropTypes from 'prop-types';
 import moment from 'moment';
 import { NavLink } from 'react-router-dom';
 
-const JobItem = ({ id, title, companyName, publicationDate }) => {
+const JobItem = ({
+  id, title, companyName, publicationDate,
+}) => {
   const formattedDate = moment(publicationDate).format('MMMM Do YYYY');
 
   return (
