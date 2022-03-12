@@ -96,6 +96,7 @@ The ideas and inspiration from this project are coming from the following articl
 
 - [Remotive API](https://remotive.io/)
 - [Storyset.com](https://storyset.com/)
+- [Nelson Sakwa design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
 
 ## License
 
