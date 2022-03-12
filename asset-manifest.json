@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/remoter/static/css/main.f5ee269a.css",
+    "main.js": "/remoter/static/js/main.2d8dc99c.js",
+    "static/media/job-offers-bro.png": "/remoter/static/media/job-offers-bro.98ca3622f3079e8d3cf7.png",
+    "index.html": "/remoter/index.html",
+    "main.f5ee269a.css.map": "/remoter/static/css/main.f5ee269a.css.map",
+    "main.2d8dc99c.js.map": "/remoter/static/js/main.2d8dc99c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5ee269a.css",
+    "static/js/main.2d8dc99c.js"
+  ]
+}
