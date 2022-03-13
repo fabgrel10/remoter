@@ -1,0 +1,15 @@
+@import "./base/fonts.css";
+@import "./base/normalize.css";
+@import "./App.css";
+@import "../features/JobBoard/JobBoard.css";
+@import "../features/JobBoard/JobItem.css";
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #4369b2;
+}
+
+p,
+a {
+  font-family: 'Cabin', sans-serif; /* 'Gill Sans', replacement */
+}

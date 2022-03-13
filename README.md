@@ -3,15 +3,16 @@
 ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=for-the-badge)
 ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
-![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-> Webapp that get of all active remote job listings for developers and others using the Remotive job board API.
+> Webapp that get of all active remote job listings for developers and others using the Remotive job board API
 
-![screenshot](./src/assets/images/app_screenshot.png)
+![screenshot](./src/assets/images/app_screenshot.gif)
 
-## Live Demo
+## Video
 
-Coming soon
+[See my presentation](https://www.loom.com/share/db92f638beb34ce6867331e91f306bce)
+[Most interesting piece of code](https://www.loom.com/share/091432c01e7d495aa1c89923becd0633)
 
 ## Table of Contents
 
@@ -31,12 +32,17 @@ Coming soon
 
 Remoter is the React Capstone Project from the Microverse Curriculum.
 
+## Live Demo
+
+[GitHub Pages](https://fabgrel10.github.io/remoter)
+
+[Surge](http://fabgrel10.reactcapstone.surge.sh/)
+
 ## Built With
 
 - [Create React App](https://create-react-app.dev/) Set up a modern web app by running one command.
 - [React Router](https://reactrouter.com/) A declarative library for building single page applications.
 - [Redux](https://redux-toolkit.js.org/) The official, opinionated, batteries-included toolset for efficient Redux development.
-- [Bootstrap](https://getbootstrap.com/) Build fast, responsive sites with Bootstrap.
 
 ## Getting Started
 
@@ -89,7 +95,9 @@ Give a ⭐️ if you like this project!
 
 The ideas and inspiration from this project are coming from the following articles:
 
-- Microverse
+- [Remotive API](https://remotive.io/)
+- [Storyset.com](https://storyset.com/)
+- [Nelson Sakwa design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
 
 ## License
 

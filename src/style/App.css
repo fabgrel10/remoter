@@ -1,0 +1,56 @@
+.container {
+  display: table;
+  width: calc(100vw - 10px);
+  margin: 0 auto;
+  color: #fff;
+  background: #4369b2;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+
+.header__section,
+.search__section,
+.job-board__section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(390px, 810px));
+  margin-bottom: 40px;
+  margin-inline: auto;
+  width: fit-content;
+}
+
+.header__section {
+  justify-items: center;
+}
+
+.header__content {
+  display: flex;
+}
+
+.header__text {
+  margin-left: 30px;
+  font-size: 45px;
+}
+
+.header__logo {
+  width: 100px;
+}
+
+a {
+  position: relative;
+  font-size: 14px;
+  padding: 5px 10px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #ec4c8a;
+  box-shadow: 0 5px 0 0 #8a3153;
+}
+
+a:hover {
+  background-color: #80324f;
+  cursor: pointer;
+}
+
+a:active {
+  top: 5px;
+  box-shadow: none;
+}

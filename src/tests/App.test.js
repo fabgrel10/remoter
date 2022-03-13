@@ -1,15 +1,19 @@
-import React from 'react';
-import { render } from '@testing-library/react';
+import renderer from 'react-test-renderer';
+import '@testing-library/jest-dom';
 import { Provider } from 'react-redux';
-import store from '../app/store';
+import { BrowserRouter } from 'react-router-dom';
+import store from '../redux/store';
 import App from '../App';
 
-test('renders learn react link', () => {
-  const { getByText } = render(
-    <Provider store={store}>
-      <App />
-    </Provider>,
-  );
-
-  expect(getByText(/React/i)).toBeInTheDocument();
+it('App renders correctly', () => {
+  const tree = renderer
+    .create(
+      <Provider store={store}>
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </Provider>,
+    )
+    .toJSON();
+  expect(tree).toMatchSnapshot();
 });

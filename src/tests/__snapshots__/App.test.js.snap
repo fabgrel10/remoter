@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<div
+  className="container"
+>
+  <header
+    className="header__section"
+  >
+    <div
+      className="header__content"
+    >
+      <img
+        alt="app logo"
+        className="header__logo"
+        src="job-offers-bro.png"
+      />
+      <div>
+        <h2
+          className="header__text"
+        >
+          Remoter
+        </h2>
+      </div>
+    </div>
+  </header>
+</div>
+`;
