@@ -9,11 +9,6 @@
 
 ![screenshot](./src/assets/images/app_screenshot.gif)
 
-## Video
-
-[See my presentation](https://www.loom.com/share/db92f638beb34ce6867331e91f306bce)
-[Most interesting piece of code](https://www.loom.com/share/091432c01e7d495aa1c89923becd0633)
-
 ## Table of Contents
 
 - [Description](#description)
