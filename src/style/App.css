@@ -1,7 +1,6 @@
 .container {
   display: table;
   width: calc(100vw - 10px);
-  max-width: 810px;
   margin: 0 auto;
   color: #fff;
   background: #4369b2;
@@ -14,6 +13,8 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(390px, 810px));
   margin-bottom: 40px;
+  margin-inline: auto;
+  width: fit-content;
 }
 
 .header__section {
